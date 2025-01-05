@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+form {
+  margin-bottom: 40px;
+}
+
+form div {
+  margin: 10px 0;
+}
+
+.music-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.music-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  box-shadow: 2px 2px 12px #aaa;
+}
+
+.music-item img {
+  max-width: 100%;
+  height: auto;
+}
